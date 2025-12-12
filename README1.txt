@@ -2,75 +2,57 @@
                   PONG RETRO C++ - PROYECTO PORTABLE
 ========================================================================
 
-GRACIAS POR ADQUIRIR ESTE PROYECTO.
+## 📝 Descripción del Proyecto
+
+========================================================================
+                  PONG RETRO C++ - PROYECTO PORTABLE
+========================================================================
 Este código ha sido diseñado para ser modular, portable y fácil de compilar.
+EL mitico juego de pong mejorado con algunos Powerups, programado en c++.
 
-IMPORTANTE:
-Este proyecto ya incluye las librerías gráficas (SFML) configuradas dentro de la carpeta
-'libs'. NO es necesario que instales SFML en tu sistema operativo.
 
-------------------------------------------------------------------------
-1. REQUISITOS DEL SISTEMA
-------------------------------------------------------------------------
-Para ejecutar y compilar este proyecto necesitas tener instalado:
+### 🎯 Objetivo del Juego
 
-1. Visual Studio Code.
-2. Extensión "C/C++" (Microsoft) en VS Code.
-3. Extensión "CMake Tools" (Microsoft) en VS Code.
-4. Un compilador C++ (Recomendado: MinGW-w64 / GCC).
-   * Nota: Si usas Windows, asegúrate de tener MinGW instalado y agregado al PATH.
+Divertir a los jugadores y para los programadores adquirir experiencia.
 
-------------------------------------------------------------------------
-2. INSTRUCCIONES DE INICIO RÁPIDO
-------------------------------------------------------------------------
+### 🎮 Controles
 
-PASO 1: ABRIR EL PROYECTO
-   - Abre Visual Studio Code.
-   - Ve a "Archivo" > "Abrir Carpeta..." (File > Open Folder).
-   - Selecciona la carpeta principal "Pong_CPP" (NO abras solo el archivo main.cpp).
+Lista los controles:
 
-PASO 2: CONFIGURACIÓN AUTOMÁTICA (CMake)
-   - Al abrir la carpeta, VS Code detectará el archivo CMakeLists.txt.
-   - Si te pregunta "Would you like to configure this project?", dale a "Yes".
-   - Si te pide seleccionar un "Kit", elige la opción que diga "GCC" o "MinGW" 
-     (Ejemplo: GCC 13.1.0 x86_64-w64-mingw32).
-   
-   * Si no te pregunta nada: Presiona `Ctrl + Shift + P` y escribe "CMake: Configure".
+- W/S Movimiento para el jugador 1.
+- ↓/↑ Movimiento para el jugador 2.
 
-PASO 3: COMPILAR (BUILD)
-   - En la barra inferior de color azul/morado de VS Code, busca el botón que dice "Build" 
-     (o un ícono de engranaje) y haz clic.
-   - Espera a que termine. Debería decir "Build finished successfully".
 
-PASO 4: EJECUTAR (RUN)
-   - Al lado del botón de Build, verás un botón de "Play" (triángulo). Haz clic ahí.
-   - ¡El juego debería abrirse inmediatamente!
+### ⚙️ Mecánicas
 
-------------------------------------------------------------------------
-3. SOLUCIÓN DE PROBLEMAS COMUNES
-------------------------------------------------------------------------
+EL juego consiste en 2 barras controladas por los jugadores las cuales tienen que hacer que la pelota rebote tocandola con la barra, 
+hay PowerUps que hacen que tu barra sea mas grande y algunos otros que te tocara descubrir.
 
-A) PROBLEMA: "El juego se abre y se cierra inmediatamente sin error"
-   SOLUCIÓN: Windows no encuentra las librerías DLL junto al ejecutable.
-   1. Ve a la carpeta "libs/SFML/bin".
-   2. Copia todos los archivos .dll.
-   3. Ve a la carpeta "build" (donde se creó el archivo .exe).
-   4. Pégalos ahí.
+### 🏆 Características
 
-B) PROBLEMA: "Error: g++ is not recognized..."
-   SOLUCIÓN: No tienes el compilador MinGW instalado o configurado en tu PC.
-   Necesitas instalar MSYS2/MinGW para poder compilar C++ en Windows.
+- Modular
+- 2 Jugadores 
+- Ligero
+- Facil de entder
+- Divertido
 
-C) PROBLEMA: "File not found" al compilar
-   SOLUCIÓN: Asegúrate de haber abierto la CARPETA completa del proyecto en VS Code, 
-   no solo los archivos individuales. CMake necesita ver toda la estructura.
+### 👥 Equipo
 
-------------------------------------------------------------------------
-ESTRUCTURA DEL PROYECTO (PARA TU REFERENCIA)
-------------------------------------------------------------------------
-/src      -> Código fuente (.cpp) - Aquí está la lógica.
-/include  -> Archivos de cabecera (.hpp) - Aquí están las definiciones.
-/libs     -> Librerías SFML (No tocar, son para que el juego funcione).
-/build    -> Aquí se genera el ejecutable final.
+- **Líder**: Santiago Sebastian Rubio Lamas(@santirula)
+- **Integrante 2**: Diego Alejandro Nuñez Sandoval (@Diego24310382)
+
+### 🛠️ Tecnologías
+
+- Motor/Framework: Godot
+- Lenguaje: C++
+- Librerías adicionales: ...
+
+### 📜 Créditos
+
+- Assets de terceros utilizados
+- Referencias o inspiraciones
+- Agradecimientos
+
+---
 
 ========================================================================
