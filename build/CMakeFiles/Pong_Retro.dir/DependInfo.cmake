@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/marco/Desktop/Pong_CPP/src/Game.cpp" "CMakeFiles/Pong_Retro.dir/src/Game.cpp.obj" "gcc" "CMakeFiles/Pong_Retro.dir/src/Game.cpp.obj.d"
-  "C:/Users/marco/Desktop/Pong_CPP/src/PowerUp.cpp" "CMakeFiles/Pong_Retro.dir/src/PowerUp.cpp.obj" "gcc" "CMakeFiles/Pong_Retro.dir/src/PowerUp.cpp.obj.d"
-  "C:/Users/marco/Desktop/Pong_CPP/src/main.cpp" "CMakeFiles/Pong_Retro.dir/src/main.cpp.obj" "gcc" "CMakeFiles/Pong_Retro.dir/src/main.cpp.obj.d"
+  "/workspaces/ThePong-2.0/src/Game.cpp" "CMakeFiles/Pong_Retro.dir/src/Game.cpp.o" "gcc" "CMakeFiles/Pong_Retro.dir/src/Game.cpp.o.d"
+  "/workspaces/ThePong-2.0/src/PowerUp.cpp" "CMakeFiles/Pong_Retro.dir/src/PowerUp.cpp.o" "gcc" "CMakeFiles/Pong_Retro.dir/src/PowerUp.cpp.o.d"
+  "/workspaces/ThePong-2.0/src/main.cpp" "CMakeFiles/Pong_Retro.dir/src/main.cpp.o" "gcc" "CMakeFiles/Pong_Retro.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -2,10 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Pong_Retro.exe"
-		},
-		{
-			"path" : "Pong_Retro.pdb"
+			"path" : "Pong_Retro"
 		}
 	],
 	"backtrace" : 1,
@@ -72,11 +69,11 @@
 			[
 				{
 					"backtrace" : 4,
-					"path" : "C:/Users/marco/Desktop/Pong_CPP/libs/SFML/include"
+					"path" : "/workspaces/ThePong-2.0/libs/SFML/include"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "C:/Users/marco/Desktop/Pong_CPP/include"
+					"path" : "/workspaces/ThePong-2.0/include"
 				}
 			],
 			"language" : "CXX",
@@ -111,8 +108,12 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-LC:\\Users\\marco\\Desktop\\Pong_CPP\\libs\\SFML\\lib",
+				"fragment" : "-L/workspaces/ThePong-2.0/libs/SFML/lib",
 				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/workspaces/ThePong-2.0/libs/SFML/lib",
+				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
@@ -133,16 +134,12 @@
 				"backtrace" : 3,
 				"fragment" : "-lsfml-audio",
 				"role" : "libraries"
-			},
-			{
-				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
-				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
 	"name" : "Pong_Retro",
-	"nameOnDisk" : "Pong_Retro.exe",
+	"nameOnDisk" : "Pong_Retro",
 	"paths" : 
 	{
 		"build" : ".",
